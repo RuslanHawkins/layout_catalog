@@ -1,0 +1,25 @@
+@import './variables';
+@import './stars';
+@import './card';
+@import './header';
+
+
+
+html {
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: $font-family;
+}
+
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
