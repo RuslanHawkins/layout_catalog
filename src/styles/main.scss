@@ -2,16 +2,15 @@
 @import './stars';
 @import './card';
 @import './header';
+@import './catalog';
 
-
-
-html {
-  font-weight: 500;
-  font-style: normal;
+* {
+  box-sizing: border-box;
 }
 
 body {
   font-family: $font-family;
+  min-height: 100vh;
 }
 
 h2,
@@ -19,7 +18,3 @@ p {
   margin: 0;
   padding: 0;
 }
-
-
-
-
