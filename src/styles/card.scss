@@ -23,10 +23,10 @@
   &:hover {
     transform: scale(1.2);
     z-index: 1;
+  }
 
-    &__title {
-      color: #34568b;
-    }
+  &:hover &__title {
+    color: $color-title-hover;
   }
 
   &__image {
