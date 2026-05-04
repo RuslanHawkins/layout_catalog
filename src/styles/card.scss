@@ -6,7 +6,7 @@
   padding: 32px 16px 16px;
   box-sizing: border-box;
 
-  background-color: #fff;
+  background-color: $color-white;
   font-family: $font-family;
   transition: $transition;
   position: relative;
@@ -24,7 +24,7 @@
     transform: scale(1.2);
     z-index: 1;
 
-    .card__title {
+    &__title {
       color: #34568b;
     }
   }
@@ -41,7 +41,7 @@
     margin-bottom: 16px;
     font-size: 10px;
     line-height: 14px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   &__rating {
@@ -55,7 +55,7 @@
     color: $color-dark;
     font-size: 10px;
     line-height: 14px;
-    font-weight: 400px;
+    font-weight: 400;
     display: block;
   }
 
@@ -70,7 +70,7 @@
     font-size: $font-size;
     line-height: 18px;
     color: $color-gray;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   &__price-value {
@@ -94,13 +94,13 @@
     border-radius: $border-radius;
 
     background-color: $color-primary;
-    color: #fff;
+    color: $color-white;
     font-weight: 700;
 
     transition: $transition;
 
     &:hover {
-      background-color: #fff;
+      background-color: $color-white;
       color: $color-primary;
     }
   }
